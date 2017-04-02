@@ -156,9 +156,15 @@ fBodyBodyGyroJerkMag-std()
 
 ## Activity Labels
 
-WALKING (1): subject was walking during the test
-WALKING_UPSTAIRS (2): subject was walking up a staircase during the test
-WALKING_DOWNSTAIRS (3): subject was walking down a staircase during the test
-SITTING (4): subject was sitting during the test
-STANDING (5): subject was standing during the test
-LAYING (6): subject was laying down during the test
+WALKING (1): The subject was walking.
+
+WALKING_UPSTAIRS (2): The subject was walking up a staircase.
+
+WALKING_DOWNSTAIRS (3): The subject was walking down a staircase.
+
+SITTING (4): The subject was sitting.
+
+STANDING (5): The subject was standing.
+
+LAYING (6): The subject was laying down.
+
