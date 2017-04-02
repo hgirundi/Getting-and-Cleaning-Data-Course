@@ -1,6 +1,6 @@
-## Run_analysis.R
+# Run_analysis.R
 
-# The script performs the following steps:
+## The script performs the following steps:
 
 1 - Load the train and test files into variables using read.table function and assign the variables to dataframes. 
 2 - Add column names for subject files, measurement files and label files before merge all files into one dataset using cbind and rbind functions.
@@ -9,12 +9,12 @@
 5 - Load reshape2 library to use melt and cast functions to create the final dataset.
 
 
-# Identifiers:
+## Identifiers:
 
 subject - The ID of the test subject
 activity - The type of activity performed when the corresponding measurements were taken
 
-# Columns (measurements):
+## Columns (measurements):
 activity
 tBodyAcc-mean()-X
 tBodyAcc-mean()-Y
@@ -83,7 +83,7 @@ fBodyBodyGyroMag-std()
 fBodyBodyGyroJerkMag-mean()
 fBodyBodyGyroJerkMag-std()
 
-# Activity Labels
+## Activity Labels
 
 WALKING (1): subject was walking during the test
 WALKING_UPSTAIRS (2): subject was walking up a staircase during the test
